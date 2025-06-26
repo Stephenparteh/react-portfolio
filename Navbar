@@ -1,0 +1,74 @@
+import React from "react";
+
+const Navbar = () => {
+  const nav = {
+    // width: "92%",
+    width: "100%",
+    zIndex: "1",
+    marginLeft: "0px",
+  };
+  return (
+    <>
+      <nav
+        className="navbar navbar-expand-lg bg-dark navbar-dark position-fixed top-0 w-100"
+        style={nav}
+      >
+        {/* <Link className="navbar-brand" id="logo">
+          Stephen Parteh
+        </Link> */}
+        <div className="collapse navbar-collapse" id="navv">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              {/* <Link className="nav-link px-3 hoverNav fade-in" id="navItem01">
+                Home
+              </Link> */}
+            </li>
+            <li className="nav-item">
+              {/* <Link className="nav-link px-3 hoverNav fade-in" id="navItem01">
+                About Me
+              </Link> */}
+            </li>
+            <li className="nav-item">
+              {/* <Link
+                href="index.html#experience"
+                className="nav-link px-3 hoverNav"
+                id="navItem01"
+              >
+                Experience
+              </Link> */}
+            </li>
+            <li className="nav-item">
+              {/* <Link
+                href="index.html#projects"
+                className="nav-link px-3 hoverNav"
+                id="navItem01"
+              >
+                Projects
+              </Link> */}
+            </li>
+            <li className="nav-item">
+              {/* <Link
+                href="resume.html"
+                className="nav-link  px-3 hoverNav"
+                id="navItem01"
+              >
+                Resume
+              </Link> */}
+            </li>
+            <li className="nav-item">
+              {/* <Link
+                href="index.html#contact"
+                className="nav-link  px-3 hoverNav"
+                id="navItem01"
+              >
+                Contact
+              </Link> */}
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </>
+  );
+};
+
+export default Navbar;

@@ -1,0 +1,115 @@
+#aboutMeHead:hover {
+  color: white;
+  background-color: #dc3545;
+  border: none;
+}
+
+#logo:hover {
+  color: #dc3545;
+  /* background-color: white; */
+}
+
+#navItem01 {
+  color: #dc3545;
+}
+
+#navItem01:hover {
+  color: white;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.navbar {
+  animation: slideIn 1s ease-out;
+}
+
+Heloo .navbar .nav {
+  height: 30px;
+}
+
+/* Animation for card hover effect */
+/* .card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+} */
+
+/* .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+} */
+
+/* Fade-in effect for cards */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+/* Image hover effect */
+.card-img-top {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+#main-img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 50px;
+}
+
+#aboutMeImg {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  /* Adjusts for smaller screens */
+  #main-img {
+    height: 35vh;
+  }
+
+  #aboutMeImg{
+    height: 40vh;
+    margin-bottom: 10px;
+  }
+
+  #aboutMeHead {
+    display: none;
+  }
+}
