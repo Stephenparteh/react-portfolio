@@ -8,20 +8,18 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 const Home = () => {
-  const homee = {
-    // backgroundColor: "green",
-    // marginLeft: "-432px",
-  };
   return (
     <>
-      <div style={homee}>
-        <Navbar />
-        <Hero />
-        <About />
-        <Experience />
-        <Project />
-        <Contact />
-        <Footer />
+      <div>
+        {/* <Navbar /> */}
+        <section className="container">
+          <Hero />
+          <About />
+          <Experience />
+          <Project />
+          <Contact />
+        </section>
+        {/* <Footer /> */}
       </div>
     </>
   );

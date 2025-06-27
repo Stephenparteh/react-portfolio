@@ -19,25 +19,25 @@ const Experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" class="mt-5 text-light">
-      <h2 class="text-center my-5">
-        My <span class="text-danger">Experiences</span>
+    <section id="experience" className="mt-5 text-light">
+      <h2 className="text-center my-5">
+        My <span className="text-danger">Experiences</span>
       </h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mb-4">
-            <div class="d-flex align-items-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12 mb-4">
+            <div className="d-flex align-items-center">
               <ul>
                 {Experiences.map((experience, index) => (
-                  <div key={index}>
-                    <div class="me-4">
-                      <i class="fa-solid fa-briefcase fa-2x text-danger"></i>
-                    </div>{" "}
+                  <div key={index} style={{ textAlign: "start" }}>
+                    {/* <div className="me-4">
+                      <i className="fa-solid fa-briefcase fa-2x text-danger"></i>
+                    </div>{" "} */}
                     <div>
-                      <h4 class="mb-1">
+                      <h4 className="mb-1">
                         {experience.position} at {experience.company}
                       </h4>
-                      <p class="text-muted mb-2">
+                      <p className="text-muted mb-2">
                         {experience.start_date} - {experience.end_date}
                       </p>
                     </div>

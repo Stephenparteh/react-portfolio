@@ -32,19 +32,22 @@ const Projects = [
 
 const Project = () => {
   return (
-    <section id="projects" class="mt-5 text-dark">
-      <h2 class="text-center my-5 text-light">
-        Check out my <span class="text-danger">Projects</span>
+    <section id="projects" className="mt-5 text-dark">
+      <h2 className="text-center my-5 text-light">
+        Check out my <span className="text-danger">Projects</span>
       </h2>
-      <div class="container">
-        <div class="row g-4">
+      <div className="container">
+        <div className="row g-4">
           {Projects.map((project, index) => (
             <div className="col-md-6 col-lg-4" key={index}>
-              <div className="card h-100 border-0 shadow-sm">
+              <div
+                className="card h-100 border-0 shadow-sm p-0"
+                style={{ textAlign: "start" }}
+              >
                 <img
                   src={project.image}
                   className="img-fluid"
-                  style={{ objectFit: "cover", height: 250 }}
+                  style={{ objectFit: "cover", height: 250, width: "100%" }}
                   alt={project.name}
                 />
                 <div className="card-body">

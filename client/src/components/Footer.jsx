@@ -1,14 +1,18 @@
 import React from "react";
 
 const Footer = () => (
-  <footer className="bg-dark text-white py-4 mt-5">
+  <footer
+    className="bg-dark text-white py-4 mt-5"
+    style={{ textAlign: "start" }}
+  >
     <div className="container">
       <div className="row gy-4">
         <div className="col-lg-4">
           <h5>About Me</h5>
           <p>
             I am passionate about creating beautiful, responsive websites and
-            providing innovative solutions to help you succeed online.
+            providing innovative solutions to help you succeed online. Feel free
+            to reach out for collaboration or any web development projects.
           </p>
         </div>
         <div className="col-lg-4">

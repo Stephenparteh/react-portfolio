@@ -1,13 +1,14 @@
 import React from "react";
 
 const Contact = () => (
-  <section id="contact" className="my-5 bg-light text-dark">
+  <section id="contact" className="my-5 text-light">
     <h2 className="text-center mb-2 mt-5">
       <span className="text-danger">Contact</span> Me
     </h2>
     <p className="text-center mb-4">
       I would love to hear from you! Whether you have a question, need a
-      website, or want to discuss your project, I am here to help.
+      website, or want to discuss your project, I am here to help. Get in touch
+      with me by using the form below or through my contact details.
     </p>
     <div className="row gy-4">
       <div className="col-lg-5 bg-white shadow p-4 rounded">

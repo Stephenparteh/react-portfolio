@@ -4,8 +4,8 @@ import odclabb from "../assets/images/odclab.jpg";
 
 const About = () => {
   return (
-    <section className="text-light">
-      <h1 className="text-center mb-4">About Me</h1>
+    <section className="text-light mt-5" id="aboutMe">
+      <h2 className="text-center mb-4">About Me</h2>
 
       <div className="row mb-5">
         <div className="col-md-7">
@@ -16,7 +16,7 @@ const About = () => {
             id="aboutMeImg"
           />
         </div>
-        <div className="col-md-5">
+        <div className="col-md-5" style={{ textAlign: "start" }}>
           <h3>Hello World! I am</h3>
           <h2>Stephen Monsue Parteh</h2>
           <p>

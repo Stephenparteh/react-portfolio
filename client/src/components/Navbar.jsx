@@ -1,45 +1,66 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-dark navbar-dark fixed-top w-100">
       <div className="container">
-        <a className="navbar-brand" href="#home">
+        <Link className="navbar-brand" id="logo" to="/">
           Stephen Parteh
-        </a>
+        </Link>
+        {/* <a className="navbar-brand" href="#home">
+          Stephen Parteh
+        </a> */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#aboutMe">
+              {/* <a className="nav-link" href="#aboutMe">
                 Home
-              </a>
+              </a> */}
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#aboutMe">
+              {/* <a className="nav-link" href="#aboutMe">
                 About Me
-              </a>
+              </a> */}
+              <Link className="nav-link" to="/#aboutMe">
+                About Me
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#aboutMe">
+              {/* <a className="nav-link" href="#aboutMe">
                 Experience
-              </a>
+              </a> */}
+              <Link className="nav-link" to="/">
+                Experiences
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#aboutMe">
+              {/* <a className="nav-link" href="#aboutMe">
                 Projects
-              </a>
+              </a> */}
+              <Link className="nav-link" to="/">
+                Projects
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#aboutMe">
+              {/* <a className="nav-link" href="#aboutMe">
                 Resume
-              </a>
+              </a> */}
+              <Link className="nav-link" to="/resume">
+                Resume
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#aboutMe">
+              {/* <a className="nav-link" href="#aboutMe">
                 Contact
-              </a>
+              </a> */}
+              <Link className="nav-link" to="/">
+                Contact
+              </Link>
             </li>
-            {/* Add more links here */}
           </ul>
         </div>
       </div>
