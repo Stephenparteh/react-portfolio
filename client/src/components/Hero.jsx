@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
           <div className="col-md-6">
             <img
-              src={spaceeProff}
+              src={tooEasyImg}
               alt="Web designer"
               className="img-fluid hero-image"
               id="main-img"
