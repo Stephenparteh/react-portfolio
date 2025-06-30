@@ -1,5 +1,7 @@
 import React from "react";
 import tooEasyImg from "../assets/images/tooEasy.jpg";
+import spaceeProff from "../assets/images/spaceeprof.JPG";
+import odcLab from "../assets/images/odclab.jpg";
 
 const Hero = () => {
   return (
@@ -16,7 +18,7 @@ const Hero = () => {
           </div>
           <div className="col-md-6">
             <img
-              src={tooEasyImg}
+              src={spaceeProff}
               alt="Web designer"
               className="img-fluid hero-image"
               id="main-img"

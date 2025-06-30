@@ -1,6 +1,8 @@
 import React from "react";
 import spaceeImg from "../assets/images/spaceeprof.JPG";
-import odclabb from "../assets/images/odclab.jpg";
+import tooEasyImg from "../assets/images/tooEasy.jpg";
+import spaceeProff from "../assets/images/spaceeprof.JPG";
+import odcLab from "../assets/images/odclab.jpg";
 
 const About = () => {
   return (
@@ -10,7 +12,7 @@ const About = () => {
       <div className="row mb-5">
         <div className="col-md-7">
           <img
-            src={odclabb}
+            src={odcLab}
             alt="About Stephen Monsue Parteh"
             className="img-fluid"
             id="aboutMeImg"
